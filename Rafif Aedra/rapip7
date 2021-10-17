@@ -1,0 +1,16 @@
+
+data class DataAnimal(val name: String, val age: Int, val weight: Int)
+
+class Animal(val name: String, val age: Int, val weight: Int){
+    override fun toString(): String{
+        return "Animal(name=$name, age=$age, weight=$weight)"
+    }
+}
+
+
+fun main(){
+    val dataAnimal = DataAnimal("Tiger", 4, 67)
+    val animal = Animal("elephant", 7, 78)
+    println(dataAnimal)
+    println(animal)
+}
