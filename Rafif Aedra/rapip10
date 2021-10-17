@@ -1,0 +1,25 @@
+class Orang(){
+    var mata = "normal"
+    var mulut = true
+    var telinga = 2
+    var tangan: String? = "kuat"
+    var kaki: Int? = 2
+
+    fun melihat(){}
+    fun bersuara(){}
+    fun mendengar(){}
+    fun menulis(){}
+    fun berjalan(){}
+}
+
+fun main(){
+    val programmer = Orang()
+    programmer.mata = "minus"
+    programmer.kaki = 6
+    programmer.menulis()
+    val pendaki = Orang()
+    pendaki.melihat()
+    pendaki.bersuara()
+    pendaki.mendengar()
+    pendaki.berjalan()
+}
