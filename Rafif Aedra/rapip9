@@ -1,0 +1,7 @@
+data class Person(var name: String, var age: Int)
+
+fun main(){
+    var fulan = Person ("fulan", 10)
+    val people = listOf(Person("Ahmad", 20),"Alamat", 12, Person("fulan", 10), fulan)
+  println(people)
+}
