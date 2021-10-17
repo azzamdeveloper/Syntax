@@ -1,0 +1,23 @@
+
+class Hewan(val nama: String = "Udin", val berat: Float = 3.0F, val berbulu: Boolean = true){
+
+    fun makan(){println("$nama sedang makan untuk menambah berat badannya, dan beratnya sekarang adalah $berat, dan dia berbulu $berbulu")}
+
+    fun tidur(){println("$nama sedang tidur untuk merawat bulunya")}
+
+    fun data(){println("nama ku $nama, berat ku $berat, aku tinggi $berbulu")}
+
+}
+
+fun main(){
+
+    val kucing = Hewan("Nabiih", 3.3F, true)
+    kucing.tidur()
+
+    val ikan = Hewan("Nabiih", 0.3F, false)
+    ikan.makan()
+
+    val rafif = Hewan("Rafif", 60.0F, true)
+    rafif.data()
+
+}
