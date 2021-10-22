@@ -1,0 +1,12 @@
+fun main(){
+    val deret = 1.rangeTo(20)
+    for (data in deret)
+        if (data % 2 != 0 && data % 3 != 0){
+            print("idn")
+
+        }else{
+            print(",$data")
+        }
+
+
+}
